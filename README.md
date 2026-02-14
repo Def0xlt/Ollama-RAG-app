@@ -25,7 +25,7 @@ This project is a fully local Retrieval-Augmented Generation (RAG) API built to 
 ## ⚙️ Prerequisites
 
 Before you begin, ensure you have the following installed:
-1. Python 3.8+
+1. Python 3.11+
 2. [Ollama](https://ollama.com/) installed and running on your machine.
 
 Once Ollama is installed, pull the TinyLlama model:
