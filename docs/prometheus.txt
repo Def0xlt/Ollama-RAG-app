@@ -1,0 +1,1 @@
+Prometheus is a leading open-source systems monitoring and alerting toolkit, widely used for cloud-native environments and Kubernetes. It scrapes metrics over HTTP from targets, storing this time-series data locally, and offers a powerful query language, PromQL, for analysis. Key features include multi-dimensional data models, flexible alerting, and service discovery.
