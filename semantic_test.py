@@ -23,8 +23,12 @@ def test_prometheus_query():
     answer = response.json()["answer"]
     assert "monitoring" in answer.lower(), "Missing 'monitoring' keyword"
     assert "alerting" in answer.lower(), "Missing 'alerting' keyword"
+    assert "time-series" in answer.lower(), "Missing 'time-series' keyword"
+
+    print("✅ Prometheus query test passed")
 
 
 if __name__ == "__main__":
     test_kubernetes_query()
+    test_prometheus_query()
     print("All semantic tests passed!")
